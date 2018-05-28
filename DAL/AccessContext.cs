@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    class AccessContext: DbContext
+    public class AccessContext : DbContext
     {
-        public AccessContext():base ("DbConnection")
+        public AccessContext(string connectionString) : base(connectionString)
         {
+            Database.SetInitializer<AccessContext>(new DropCreateDatabaseAlways<AccessContext>());
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Room> Rooms { get; set; }
