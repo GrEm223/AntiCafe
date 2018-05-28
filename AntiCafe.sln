@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiCafe", "AntiCafe\AntiCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FC6F9772-3B67-4FBB-89AA-477474522336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{16F7973B-188E-4625-9E3B-97D49A13EB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D58DB430-93BC-40C5-AFE0-396619471ECB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FC6F9772-3B67-4FBB-89AA-477474522336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC6F9772-3B67-4FBB-89AA-477474522336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC6F9772-3B67-4FBB-89AA-477474522336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F7973B-188E-4625-9E3B-97D49A13EB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F7973B-188E-4625-9E3B-97D49A13EB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F7973B-188E-4625-9E3B-97D49A13EB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F7973B-188E-4625-9E3B-97D49A13EB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58DB430-93BC-40C5-AFE0-396619471ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58DB430-93BC-40C5-AFE0-396619471ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58DB430-93BC-40C5-AFE0-396619471ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58DB430-93BC-40C5-AFE0-396619471ECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
