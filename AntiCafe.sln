@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiCafe", "AntiCafe\AntiCafe.csproj", "{9F4383DA-3602-4188-A823-AD42764CA5F6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DAL", "DAL\DAL.shproj", "{6AEDC4C7-CE72-4821-9FCA-A77D69A80C43}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DAL\DAL.projitems*{6aedc4c7-ce72-4821-9fca-a77d69a80c43}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F4383DA-3602-4188-A823-AD42764CA5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4383DA-3602-4188-A823-AD42764CA5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4383DA-3602-4188-A823-AD42764CA5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4383DA-3602-4188-A823-AD42764CA5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
